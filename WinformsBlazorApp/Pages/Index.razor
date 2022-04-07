@@ -1,0 +1,13 @@
+﻿@page "/"
+
+<h3>Index</h3>
+<a href="index2">index2</a>
+<input type="button" value="Start" @onclick="Method1" />
+<h1>@myh1</h1>
+@code {
+    string myh1;
+    private void Method1()
+    {
+        myh1 = "Hello Winforms Blazor";
+    }
+}
